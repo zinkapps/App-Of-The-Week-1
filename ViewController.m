@@ -8,7 +8,7 @@
 
 -(IBAction)playMovie {
     NSString *url = [[NSBundle mainBundle]
-                     pathForResource:@" insert video name" ofType:@"insert video format"];
+                     pathForResource:@"insert video name" ofType:@"insert video format"];
     MPMoviePlayerController *player = [[MPMoviePlayerController alloc]
                                      initWithContentURL:[NSURL fileURLWithPath:url]];
     
